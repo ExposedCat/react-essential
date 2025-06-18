@@ -4,7 +4,7 @@ export const App = () => {
 	return (
 		<HStack>
 			<Heading>React Essential</Heading>
-			<Button>Click me</Button>
+			<Button background="sample">Click me</Button>
 		</HStack>
 	);
 };
