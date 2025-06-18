@@ -1,3 +1,10 @@
+import { Button, Heading, HStack } from "@chakra-ui/react";
+
 export const App = () => {
-	return <p>test</p>;
+	return (
+		<HStack>
+			<Heading>React Essential</Heading>
+			<Button>Click me</Button>
+		</HStack>
+	);
 };
